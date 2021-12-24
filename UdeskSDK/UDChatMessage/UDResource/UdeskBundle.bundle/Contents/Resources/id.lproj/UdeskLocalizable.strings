@@ -1,0 +1,140 @@
+/* 
+  UdeskLocalizable.strings
+  UdeskSDK
+
+  Created by Udesk on 16/9/2.
+  Copyright © 2016年 Udesk. All rights reserved.
+*/
+//faq
+"udesk_faq_title" = "Pusat Bantuan";
+"udesk_faq_details_title" = "Rincian Masalah";
+"udesk_faq_search" = "Cari";
+"udesk_faq_Contactus" = "Hubungi Kami";
+"udesk_faq_tips" = "Tidak dapat menemukan yang kamu cari?";
+
+//im
+"udesk_close" = "Tutup";
+"udesk_back" = "Kembali";
+"udesk_cancel" = "Batal";
+"udesk_sure" = "Ya";
+"udesk_alert_view_blocked_list" = "Maaf, kamu telah dimasukkan ke daftar hitam";
+"udesk_im_title_blocked_list" = "Kamu telah dimasukkan ke daftar hitam";
+"udesk_network_interrupt" = "Jaringan terputus";
+"udesk_chat_end" = "Obrolan telah berakhir";
+"udesk_top_view_thanks_evaluation" = "Terima kasih telah menilai!";
+"udesk_top_view_failure" = "Penilaian gagal!";
+"udesk_has_survey" = "Terima kasih telah menilai layanan ini!";
+"udesk_no_send_empty" = "Tidak dapat mengirim pesan kosong";
+"udesk_resend_msg" = "Kirim ulang pesan?";
+"udesk_send" = "Kirim";
+"udesk_typing" = "Ketik pesan...";
+"udesk_hold_to_talk" = "Tahan untuk berbicara";
+"udesk_release_to_cancel" = "Lepaskan untuk batal mengirim";
+"udesk_microphone_denied" = "Aplikasi membutuhkan akses ke mikrofon. \n Harap aktifkan mikrofon - Pengaturan/Privasi/Mikrofon";
+"udesk_album_denied" = "Aplikasi membutuhkan akses ke foto. \n Harap aktifkan foto - Pengaturan/Privasi/Foto";
+"udesk_camera_denied" = "Aplikasi membutuhkan akses ke kamera. \n Harap aktifkan kamera - Pengaturan/Privasi/Kamera";
+"udesk_leave_msg" = "Tinggalkan pesan";
+"udesk_connecting" = "Menyambungkan...";
+"udesk_agent_offline" = "Layanan Pelanggan sedang offline";
+"udesk_agent_busy" = "Layanan Pelanggan sedang sibuk";
+"udesk_redirect" = "Operator";
+"udesk_robot_title" = "Robot";
+"udesk_alert_view_agent_busy_leave_msg" = "Layanan Pelanggan saat ini sedang sibuk, silakan klik tombol untuk meninggalkan pesan";
+"udesk_alert_view_leave_msg" = "Layanan Pelanggan saat ini sedang offline. Kamu bisa memberitahu kami dengan mengirimkan formulir, kami akan menghubungimu nanti";
+"udesk_alert_view_direct_msg" = "Layanan Pelanggan saat ini sedang offline, kamu bisa langsung meninggalkan pesan, kami akan menghubungimu nanti";
+"udesk_alert_view_no_reply_hint" = "Maaf, tidak ada Layanan Pelanggan yang tersedia saat ini. Silakan hubungi kami selama jam kerja";
+"udesk_network_disconnect" = "Jaringan terputus. Harap sambungkan jaringan terlebih dahulu";
+"udesk_has_bad_net" = "Jaringan tidak stabil, silakan periksa pengaturan jaringanmu";
+"udesk_wait_connecting" = "Sedang menyambungkan, mohon tunggu...";
+"udesk_thanks" = "Terima kasih atas penilaianmu!";
+"udesk_reassign_agent" = "Menugaskan ulang Layanan Pelanggan, mohon tunggu...";
+"udesk_agent_not_exist" = "Layanan Pelanggan tidak ada";
+"udesk_group_not_exist" = "Grup Layanan Pelanggan tidak ada";
+"udesk_copy" = "Salin";
+"udesk_call" = "Panggil";
+"udesk_today" = "Hari Ini";
+"udesk_yesterday" = "Kemarin";
+"udesk_save" = "Simpan";
+"udesk_failed_save" = "Gagal menyimpan";
+"udesk_success_save" = "Berhasil disimpan";
+"udesk_send_link" = "Kirim tautan";
+"udesk_choose_group" = "Silakan pilih Grup Layanan Pelanggan";
+"udesk_agent" = "Layanan Pelanggan";
+"udesk_online" = "Online";
+"udesk_offline" = "Offline";
+"udesk_failed_video" = "Tidak bisa diputar";
+"udesk_has_send" = "Sudah dikirim";
+"udesk_has_downed" = "Sudah diunduh";
+"udesk_video_download" = "Unduh";
+"udesk_has_uncomplete_tip" = "Klik setelah pengunduhan selesai";
+"udesk_download_failure" = "Gagal mengunduh. Silakan coba lagi";
+"udesk_wwan_tips" = "Pengingat Kuota";
+"udesk_video_send_tips" = "Saat ini tidak ada koneksi Wi-Fi, mengirim file akan memakan kuota. Apakah kamu ingin melanjutkan?";
+"udesk_video_big_tips" = "File terlalu besar untuk dikirim";
+"udesk_customer_leave_msg" = "Tinggalkan Pesan";
+"udesk_leave_message_offline_reply" = "Balasan pesan offline";
+"udesk_rollback" = "telah menarik kembali pesan";
+"udesk_location" = "Lokasi";
+"udesk_phone_number_tip" = "Mungkin sebuah nomor HP, kamu bisa";
+"udesk_file_not_exist" = "File tidak ada, tautan salah";
+"udesk_download_failed" = "Gagal mengunduh";
+"udesk_search" = "Cari";
+"udesk_video_export_failed" = "Ekspor video gagal";
+"udesk_agent_transfer_tip" = "Berhasil diteruskan ke Layanan Pelanggan, @ akan melayani kamu";
+
+"udesk_preview" = "Pratinjau";
+"udesk_full_image" = "Gambar Asli";
+"udesk_photo" = "Foto";
+"udesk_max_count_photo" = "Kamu hanya dapat memilih maksimal @ foto";
+"udesk_small_video_tips" = "Tap untuk mengambil foto, tahan untuk mengambil video";
+"udesk_second" = "Detik";
+"udesk_album" = "Album";
+"udesk_shooting" = "Kamera";
+"udesk_survey" = "Beri Penilaian";
+"udesk_location" = "Lokasi";
+"udesk_video_call" = "Panggilan Video";
+"udesk_hold_to_talk" = "Tahan untuk berbicara";
+"udesk_release_to_send" = "Lepaskan untuk mengakhiri";
+"udesk_release_to_cancel" = "Lepaskan untuk membatalkan";
+"udesk_slide_up_to_cancel" = "Geser ke atas untuk batal mengirim";
+"udesk_release_up_to_cancel" = "Lepaskan untuk batal mengirim";
+"udesk_message_too_short" = "Rekaman terlalu singkat";
+"udesk_service_survey" = "Penilaian Layanan";
+"udesk_submit_survey" = "Kirim Penilaian";
+"udesk_survey_satisfied" = "Puas";
+"udesk_survey_general" = "Biasa Saja";
+"udesk_survey_unsatisfactory" = "Tidak Puas";
+"udesk_survey_tips" = "Silakan beri penilaian pada layanan saat ini, terima kasih!";
+"udesk_survey_remark_required" = "Kolom penilaian harus diisi";
+"udesk_survey_remark_max_num" = "Konten melebihi batas maksimal";
+"udesk_survey_has_event" = "Penilaian selesai";
+"udesk_admin" = "Admin";
+"udesk_queue" = "Dalam antrean";
+"udesk_text_max_num" = "Pesan terlalu panjang. Mohon kirim pesan secara terpisah";
+
+//v4
+"udesk_please_talk" = "Silakan bicara";
+"udesk_clean" = "Kosongkan";
+"udesk_collapse" = "Tarik kembali";
+"udesk_edit_content" = "Edit konten";
+"udesk_reset_message" = "Kirim ulang pesan";
+"udesk_notwork_failure" = "Jaringan saat ini tidak tersedia. Harap periksa pengaturan jaringanmu";
+"udesk_answer_has_survey" = "Sudah dinilai";
+"udesk_robot_survey" = "Penilaian Robot";
+"udesk_robot_welcome_message" = "Halo, Robot akan melayani kamu";
+"udesk_change_group" = "Ganti grup";
+"udesk_robot_recommendation_question" = "Apakah kamu ingin berkonsultasi tentang pertanyaan-pertanyaan di bawah ini?";
+"udesk_robot_transfer_out_of_date" = "Tombol transfer ke orang tidak valid";
+
+"udesk_video_call_duration" = "Durasi bicara:";
+
+//agent
+"udesk_video_call_agent_busy" = "Saluran sedang sibuk";
+"udesk_video_call_agent_decline" = "Panggilan ditolak";
+"udesk_video_call_agent_cancel" = "Sudah dibatalkan";
+"udesk_video_call_agent_not_answered" = "Tidak ada jawaban";
+"udesk_video_call_agent_not_logged_in" = "Layanan Pelanggan belum masuk panggilan video";
+
+//customer
+"udesk_video_call_customer_cancel" = "Panggilan dibatalkan";
+"udesk_video_call_customer_decline" = "Sudah ditolak";

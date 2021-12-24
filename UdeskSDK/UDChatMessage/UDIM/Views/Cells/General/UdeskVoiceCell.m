@@ -105,6 +105,38 @@ static NSString *const kUdeskVoicePlayHasInterrupt = @"kUdeskVoicePlayHasInterru
 
     [super updateCellWithMessage:baseMessage];
     
+    // TODO: [OHLA] 语音消息颜色
+    switch (baseMessage.message.messageFrom) {
+        case UDMessageTypeReceiving: {
+            UIImage *bubbleImage = [UdeskSDKConfig customConfig].sdkStyle.agentBubbleImage;
+            UIColor *bubbleColor = [UdeskSDKConfig customConfig].sdkStyle.agentVoiceBubbleColor;
+            
+            if (bubbleColor && [bubbleColor isKindOfClass:[UIColor class]]) {
+                bubbleImage = [bubbleImage imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+                self.bubbleImageView.tintColor = bubbleColor;
+            }
+            
+            self.bubbleImageView.image = [bubbleImage stretchableImageWithLeftCapWidth:bubbleImage.size.width/2 topCapHeight:bubbleImage.size.height/2];
+            
+            break;
+        }
+        case UDMessageTypeSending: {
+            UIImage *bubbleImage = [UdeskSDKConfig customConfig].sdkStyle.customerBubbleImage;
+            UIColor *bubbleColor = [UdeskSDKConfig customConfig].sdkStyle.customerVoiceBubbleColor;
+            
+            if (bubbleColor && [bubbleColor isKindOfClass:[UIColor class]]) {
+                bubbleImage = [bubbleImage imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+                self.bubbleImageView.tintColor = bubbleColor;
+            }
+            
+            self.bubbleImageView.image = [bubbleImage stretchableImageWithLeftCapWidth:bubbleImage.size.width/2 topCapHeight:bubbleImage.size.height/2];
+            
+            break;
+        }
+        default:
+            break;
+    }
+
     UdeskVoiceMessage *voiceMessage = (UdeskVoiceMessage *)baseMessage;
     if (!voiceMessage || ![voiceMessage isKindOfClass:[UdeskVoiceMessage class]]) return;
     

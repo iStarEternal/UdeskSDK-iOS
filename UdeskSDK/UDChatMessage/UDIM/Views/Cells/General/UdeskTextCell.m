@@ -130,7 +130,7 @@
                 self.bubbleImageView.tintColor = bubbleColor;
                 image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
             }
-            self.bubbleImageView.image = [image stretchableImageWithLeftCapWidth:image.size.width/3 topCapHeight:image.size.height/2];
+            self.bubbleImageView.image = [image stretchableImageWithLeftCapWidth:image.size.width/2 topCapHeight:image.size.height/2];
         }
     }
     

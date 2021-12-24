@@ -199,7 +199,7 @@
                 self.bubbleImageView.tintColor = bubbleColor;
             }
             
-            self.bubbleImageView.image = [bubbleImage stretchableImageWithLeftCapWidth:bubbleImage.size.width/3 topCapHeight:bubbleImage.size.height/2];
+            self.bubbleImageView.image = [bubbleImage stretchableImageWithLeftCapWidth:bubbleImage.size.width/2 topCapHeight:bubbleImage.size.height/2];
             
             //客服昵称
             self.nicknameLabel.frame = baseMessage.nicknameFrame;
@@ -219,7 +219,7 @@
                 self.bubbleImageView.tintColor = bubbleColor;
             }
             
-            self.bubbleImageView.image = [bubbleImage stretchableImageWithLeftCapWidth:bubbleImage.size.width/3 topCapHeight:bubbleImage.size.height/2];
+            self.bubbleImageView.image = [bubbleImage stretchableImageWithLeftCapWidth:bubbleImage.size.width/2 topCapHeight:bubbleImage.size.height/2];
             
             //客户昵称
             self.nicknameLabel.frame = baseMessage.nicknameFrame;

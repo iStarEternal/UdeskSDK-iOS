@@ -258,6 +258,9 @@
 
 + (NSString *)setupMessageBubble:(UdeskMessage *)currentMessage laterMessage:(UdeskMessage *)laterMessage previousMessage:(UdeskMessage *)previousMessage {
     
+    // TODO: [OHLA] 暂时不适用连续消息
+    return nil;
+    
     //没有后一个消息
     if (!laterMessage && previousMessage) {
         

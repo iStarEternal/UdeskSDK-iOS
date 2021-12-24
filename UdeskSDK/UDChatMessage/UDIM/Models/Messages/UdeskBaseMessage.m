@@ -211,6 +211,11 @@ static CGFloat const kUDRichMendSpacingTwo = 5.0;
         }
     }
     
+    // TODO: [OHLA] 暂时不支持除白色之外其他任何颜色富文本消息
+    [mAtt addAttributes:@{
+        NSForegroundColorAttributeName : UIColor.whiteColor
+    } range:NSMakeRange(0, mAtt.length)];
+    
     return mAtt;
 }
 

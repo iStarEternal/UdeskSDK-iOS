@@ -18,6 +18,8 @@
 @property (nonatomic, strong) UIColor  *customerTextColor;
 /** 客户的气泡颜色 */
 @property (nonatomic, strong) UIColor  *customerBubbleColor;
+// TODO: [OHLA] 添加语音气泡颜色
+@property (nonatomic, strong) UIColor  *customerVoiceBubbleColor;
 /** 客户的气泡图片 */
 @property (nonatomic, strong) UIImage  *customerBubbleImage;
 /** 客户的头像图片 */
@@ -32,6 +34,8 @@
 
 /** 客服的气泡颜色 */
 @property (nonatomic, strong) UIColor  *agentBubbleColor;
+// TODO: [OHLA] 添加语音气泡颜色
+@property (nonatomic, strong) UIColor  *agentVoiceBubbleColor;
 
 /** 客服的气泡图片 */
 @property (nonatomic, strong) UIImage  *agentBubbleImage;
