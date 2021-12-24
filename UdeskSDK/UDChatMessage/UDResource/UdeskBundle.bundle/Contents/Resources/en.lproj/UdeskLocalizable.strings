@@ -87,7 +87,7 @@
 "udesk_photo" = "Photos";
 "udesk_max_count_photo" = "You can only choose a maximum of @ photos";
 "udesk_small_video_tips" = "Tap to take a photo, hold to take a video";
-"udesk_second" = "Second （如果超过1秒，后面要加 s）";
+"udesk_second" = "Seconds";
 "udesk_album" = "Album";
 "udesk_shooting" = "Camera";
 "udesk_survey" = "Rate Service";
